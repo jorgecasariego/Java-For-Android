@@ -31,5 +31,9 @@ public class Main {
 		
 		//Obteniendo longitud de la coleccion
 		System.out.println("La coleccion tiene una longitud de " + abecedario.size());
+		
+		//Obteniendo el indice a partir del valor
+		int resultado = abecedario.indexOf("B");
+		System.out.println("El indice de B es " + resultado);
 	}
 }
