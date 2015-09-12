@@ -17,6 +17,7 @@ public class Main {
 		System.out.println("Despues de remover el  valor con key = 2: " + map);
 		
 		//Iterando sobre un map
+		//En este caso keySet retorna todo el conjunto de claves de la colección
 		Iterator<Integer> i = map.keySet().iterator();
 		while(i.hasNext()){
 			Integer key = (Integer) i.next();

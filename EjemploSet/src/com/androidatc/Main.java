@@ -24,6 +24,17 @@ public class Main {
 		ejemploIterator(setA);
 	}
 
+	/**
+	 * Casos en los que definimos un metodo static:
+	 * 1. Si estamos escribiendo una clase Utilitaria y suponemos que esta no debe ser cambiada
+	 * 2. Si el metodo no esta usando una variable de instancia
+	 * 3. Si la operación no depende de la creación de alguna instancia
+	 * 4. Si hay alguna parte de un codigo que puede ser facilmente compartida entre varios metodos entonces
+	 *    podemos extraer ese codigo en un metodo estatico
+	 * 5. Si estamos seguros que la definición del metodo no será cambiada o sobreescrita. Un metodo estatico
+	 *    no puede ser sobreescrita
+	 * @param setA
+	 */
 	private static void ejemploIterator(Set<String> setA) {
 		Iterator<String> i = setA.iterator();
 		
