@@ -1,6 +1,6 @@
 package com.androidatc;
 
-public class ErrorDemo {
+public class StackOverflow {
 	public void metodo1(){
 		metodo2();
 	}

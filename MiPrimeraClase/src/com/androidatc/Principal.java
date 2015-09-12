@@ -26,6 +26,10 @@ public class Principal {
 		System.out.println("Tractor Fiat");
 		fiat.imprimir();
 		
+		System.out.println("Aumentando a turbo");
+		fiat.aumentarVelocidadTurbo(10);
+		fiat.imprimir();
+		
 		System.out.println();
 		
 		//Creamos un kia utilizando el constructor sobrecargado

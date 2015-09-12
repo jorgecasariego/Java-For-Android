@@ -25,7 +25,7 @@ public class ControlFlow {
 		int diaSemanaInt = 1;
 		String diaSemanaString = "";
 		
-		switch (puntuacion) {
+		switch (diaSemanaInt) {
 		case 1:
 			diaSemanaString = "Lunes";
 			break;
@@ -50,13 +50,13 @@ public class ControlFlow {
 		System.out.println("Dia de la semana en entero: " + diaSemanaInt+ " es en letra: " + diaSemanaString);
 		
 		// ***************** Utilizando while ***************** 
-		int dolares = 10;
+		int dolares = 5350;
 		
 		System.out.println();
 		System.out.println("Utilizando while");
-		while(dolares > 0){
+		while(dolares < 5400){
 			System.out.println("consumiendo: " + dolares);
-			dolares--;
+			dolares++;
 		}
 		
 		System.out.println("Sin dinero");
@@ -67,6 +67,20 @@ public class ControlFlow {
 		for (int i = 0; i < 10; i++) {
 			System.out.println("Valor es " + i);
 		}
+		
+		int valor = 62;
+		if((valor % 2) == 0){
+			System.out.println("Par");
+		} else{
+			System.out.println("Impar");
+		}
+		int aNumber = 3;
+		
+		if(aNumber >= 0)
+			   if(aNumber == 0)
+				System.out.println("First String");
+			else System.out.println("Second String");
+			System.out.println("Third String");
 		
 	}
 }

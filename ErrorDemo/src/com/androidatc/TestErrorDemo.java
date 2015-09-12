@@ -2,9 +2,9 @@ package com.androidatc;
 
 public class TestErrorDemo {
 	public static void main(String[] args){
-		ErrorDemo test = new ErrorDemo();
+		//StackOverflow test = new StackOverflow();
 		
-		test.metodo1(); //Ocurre un error StackOverflowError
+		//test.metodo1(); //Ocurre un error StackOverflowError
 		
 		/**
 		 * StackOverflowError
@@ -20,5 +20,9 @@ public class TestErrorDemo {
 		 * por cada llamada. Se ejecuta nuevamente una instancia de la función method1 o method2
 		 * y así sucesivamente hasta que la pila estática se colme y se cuelgue el programa.
 		 */
+		
+		
+		MemoryError testMemory = new MemoryError();
+		testMemory.metodo3();
 	}
 }
